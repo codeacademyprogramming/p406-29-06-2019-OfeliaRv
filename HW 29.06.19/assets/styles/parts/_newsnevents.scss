@@ -1,0 +1,41 @@
+#newsandevents {
+  background-color: $section-background-color;
+  height: 1200px;
+
+  .row {
+    .nae-pictures {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+      &-item {
+        margin: 15px;
+        cursor: pointer;
+
+        .nae-picmark {
+          border: none;
+          background-color: white;
+          height: 100px;
+          width: 370px;
+
+          p {
+            color: gray;
+            font-weight: 100;
+            margin-left: 25px;
+            font-size: 14px;
+            margin-bottom: 3px;
+            padding-top: 20px;
+          }
+
+          h6 {
+            color: $highlight-color;
+            font-weight: 500;
+            margin-left: 25px;
+            font-size: 19px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+#ourdjs {
+  background-color: $main-background-color;
+  height: 1300px;
+
+  .row {
+    .dj-pictures {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 0;
+    }
+
+    &-item {
+      margin: 15px;
+    }
+  }
+}

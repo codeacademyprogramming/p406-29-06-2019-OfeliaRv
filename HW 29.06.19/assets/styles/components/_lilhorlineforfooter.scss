@@ -1,0 +1,11 @@
+.little-hor-line-footer{
+    border: 1px solid $highlight-color;
+    height: 2px;
+    width: 45px;
+    background-color: $highlight-color;
+    margin-bottom: 20px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}

@@ -1,0 +1,73 @@
+.options-bar{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 80px;
+}
+
+.deejee-logo h2{
+    color: white;
+    font-size: 32px;
+    position: relative;
+    font-weight: 700;
+    margin-top: 45px;
+    font-family: 'Oswald', sans-serif;
+
+    span{
+        color: $highlight-color;
+    }
+}
+
+.options{
+    margin-top: 45px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+    ul{
+        display: flex;
+        flex-direction: row;
+
+        li{
+            color: $sub-text-color;
+            font-weight: 400;
+            font-size: 18px;
+            list-style-type: none;
+            margin: 0 18px;
+
+            &:hover{
+                color: white;
+            }
+        }
+    }
+}
+
+.main-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 110px auto;
+
+    h1{
+        color: white;
+        font-size: 63px;
+        font-family: 'Oswald',sans-serif;
+        letter-spacing: 4px;
+        font-weight: 400;
+    }
+}
+
+.download-button{
+    background-color: $highlight-color;
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+    width: 186px;
+    height: 55px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+    margin-right: 18px;
+}

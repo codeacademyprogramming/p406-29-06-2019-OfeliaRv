@@ -1,0 +1,14 @@
+.footer-head {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer-heading {
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3rem;
+    color: $heading-text-color;
+}

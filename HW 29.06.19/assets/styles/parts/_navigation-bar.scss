@@ -1,0 +1,86 @@
+nav {
+  position: fixed;
+  height: $nav-height;
+  width: 100%;
+  border: 1px solid $main-nav-color;
+  background-color: $main-nav-color;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  border: 0.5px solid $nav-border-color;
+  z-index: 4;
+
+  .row {
+    justify-content: space-between;
+    display: flex;
+
+    .leftside {
+      display: flex;
+      justify-content: flex-start;
+      cursor: pointer;
+
+      .logo {
+        width: 155px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .deejee {
+        background-color: $main-nav-color-darker;
+        width: 145px;
+
+        h1 {
+          color: #9b9b9b;
+          font-size: 18px;
+          font-weight: 200;
+          margin-top: 18px;
+          margin-left: 27px;
+        }
+      }
+    }
+  }
+
+  .rightside {
+    display: flex;
+    justify-content: flex-end;
+
+    .nav-buttons {
+      width: 60px;
+      border-left: 0.2px solid $nav-border-color;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 59px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $main-nav-color-darker;
+      }
+
+      .nav-icons{
+        color: #9b9b9b;
+        font-size: 25px;
+
+      }
+
+      #nav-icon4{
+        color: white;
+        font-size: 30px;
+      }
+
+      #nav-icon5{
+        font-weight: bolder;
+      }
+    }
+
+    #nav-button4 {
+      background-color: $nav-button-color-green;
+
+      &:hover {
+        background-color: $main-nav-color-darker;
+      }
+    }
+  }
+}
+
